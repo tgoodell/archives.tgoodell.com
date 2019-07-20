@@ -13,8 +13,12 @@
     line-height: 40px;
 }
 
+a {
+    transition: 0.5s;
+}
+
 .archive-body {
-    width: 50%;
+    width: 40%;
     margin: auto;
     padding: 20px;
 }
@@ -23,6 +27,18 @@
     color: #073763;
     border-left: 10px solid #ffdd4a;
     padding: 5px;
+}
+
+.archive-body li {
+    list-style: circle;
+}
+
+.archive-body a {
+    color: #2b59c3;
+}
+
+.archive-body a:hover {
+    color: #073763;
 }
 
 .cool-footer p, .cool-footer a {
