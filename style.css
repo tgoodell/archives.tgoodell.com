@@ -46,3 +46,21 @@ a {
     font-size: 12px;
     text-align: center;
 }
+
+@media screen and (max-width: 1466px) {
+    .archive-body {
+        width: 60%;
+    }
+}
+
+@media screen and (max-width: 740px) {
+    .archive-body {
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 314px) {
+    .archive-body {
+        width: auto;
+    }
+}
